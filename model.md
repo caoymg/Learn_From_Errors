@@ -30,3 +30,13 @@ nn.Softmax(dim=1)
 
 **comments:** 😅
 
+
+
+👩🏻‍💻**torch.clamp()**
+
+**errors:** clamp(): argument 'min' must be Number, not Tensor.
+
+**solutions: **可能是pytorch版本不对（尝试降低版本）
+
+
+
