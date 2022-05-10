@@ -28,7 +28,6 @@
 nn.Softmax(dim=1)
 ```
 
-**comments:** 😅
 
 
 
@@ -44,11 +43,10 @@ nn.Softmax(dim=1)
 
 **errors:** RuntimeError: "bitwise_and_cpu" not implemented for 'Float'
 
-**solutions: **&两边没加括号
+**solutions:**&两边没加括号
 
 ```py
 top2_index = ((tem_top2<freq) & (freq<tem_top1)).nonzero()
 ```
 
-**comments:** 😅
 
