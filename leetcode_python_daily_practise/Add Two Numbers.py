@@ -39,9 +39,8 @@ class Solution(object):
         while i:          
             i-=1
             ch= int(sum[i])
-            if next != None:
-                next.next= ListNode(ch)          
-                next= next.next
-                
+            next.next= ListNode(ch)          
+            next= next.next
+            
         return output
             
